@@ -1,0 +1,18 @@
+body{
+  background: #4D8A38;
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+}
+li{
+  display: inline-block;
+}
+.animal{
+  margin:10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.pet-img {
+  height: 200px;
+}

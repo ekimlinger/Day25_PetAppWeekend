@@ -1,0 +1,7 @@
+<ul class="animal-list">
+  <li class="animal" ng-repeat="pet in allPets.data | orderBy: 'name' ">
+    {{ pet.name }} Age: {{ pet.age }}, {{ pet.animal }}</br>
+    <img class="pet-img" ng-src="{{pet.url}}" />
+    <button ng-click="removePet(pet)">Remove</button>
+  </li>
+</ul>
